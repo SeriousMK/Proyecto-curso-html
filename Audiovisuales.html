@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Ghibli</title>
+    <meta name="author" content="Maikun">
+    <meta name=" description" content="Mi primer proyecto html">
+    <meta name="keywords" content="pagina web, tutorial, desarrollo web, html,proyecto">
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #04AA6D;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        div.gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 33vw;
+        }
+
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .centrado {
+            display: flex;
+            justify-content: center;
+        }
+
+        .footer {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+
+    <title>Página Ghibli</title>
+</head>
+
+<body>
+    <h1>GHIBLI</h1>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Filmografía.html">Filmografía</a></li>
+                <li><a class="active" href="Audiovisuales.html">Audiovisuales</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <h1></h1>
+
+    <div class="centrado"><video src="/assets/videos/Ghibli1.mp4" autoplay muted controls></video></div> <br>
+    
+    <div class="centrado"><audio src="/assets/sounds/Howl_s Moving Castle [OST - Theme Song](MP3_320K).mp3" autoplay controls muted></audio></div>
+ 
+    
+    <br>
+
+    <section class="centrado">
+
+        <div class="gallery"> <a href="/assets/images/image3.jpg"><img src="/assets/images/image3.jpg" alt="Paisajes" width="400px"></a> <!--se metieron las imagenes dentro de un anchor para hacer q se abrieran en una pestaña a parte-->
+            <div class="desc" style="font-family: Arial, Helvetica, sans-serif;">Paisajes1</div>
+        </div> <br>
+        <div class="gallery"> <a href="/assets/images/image4.jpg"><img src="/assets/images/image4.jpg" alt="Paisajes1" width="400px"></a> 
+            <div class="desk" style="font-family: Arial, Helvetica, sans-serif;">Paisajes2</div>
+        </div>
+
+
+
+    </section>
+
+ <footer class="footer">
+
+        <h3>Si quiere disfrutar más de este increible mundo no dude en visitar la cuenta de instagram de nuestra
+            diseñadora especializada en creación de espacios inspirados en el universo Ghibli. <a
+                href="https://www.instagram.com/h_rochela.t" target="_blank">Vamos!</a></h3>
+
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+   
